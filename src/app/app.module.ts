@@ -8,7 +8,6 @@ import { ToastrModule } from "ngx-toastr";
 import { AppComponent } from './app.component';
 import { TrainingschedulesComponent } from './trainingschedules/trainingschedules.component';
 import { TrainingscheduleComponent } from './trainingschedule/trainingschedule.component';
-import { TrainingschedulelistComponent } from './trainingschedulelist/trainingschedulelist.component';
 import { TrainingscheduleService } from './shared/trainingschedule.service';
 import {NgForm} from '@angular/forms';
 
@@ -17,8 +16,7 @@ import {NgForm} from '@angular/forms';
     AppComponent,
     //MatDatepickerModule, MatInputModule,MatNativeDateModule,
     TrainingschedulesComponent,
-    TrainingscheduleComponent,
-    TrainingschedulelistComponent
+    TrainingscheduleComponent
   ],
   imports: [
     BrowserModule,
